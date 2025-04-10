@@ -1,5 +1,16 @@
 RL Swarm Node - Full Setup Guide (PC | VPS | Mac)
 
+tmux new-session -s rlswarm
+
+# Then inside tmux, run your node
+docker compose up
+
+# To detach from tmux session:
+Ctrl + B, then press D
+
+# To reattach later:
+tmux attach-session -t rlswarm
+
 > Official Docs: Gensyn RL Swarm GitHub
 Dashboard (Check Points): https://dashboard.gensyn.ai/
 
