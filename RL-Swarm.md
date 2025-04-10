@@ -1,14 +1,18 @@
-RL Swarm Node Run Full Guide (PC and VPS and Mac)
+# RL Swarm Node Run Full Guide (PC, VPS & Mac)
 
-Offical Docs Guide - https://github.com/gensyn-ai/rl-swarm?tab=readme-ov-file
+### Offical Docs:  
+[https://github.com/gensyn-ai/rl-swarm](https://github.com/gensyn-ai/rl-swarm?tab=readme-ov-file)
 
-Dashboard (check ur points) - https://dashboard.gensyn.ai/
+### Dashboard (Check your Points):  
+[https://dashboard.gensyn.ai/](https://dashboard.gensyn.ai/)
 
-1️⃣ Dependencies for WINDOWS & LINUX & VPS & Mac
+---
 
-For WSL or VPS
+## 1️⃣ Install Dependencies for Windows / Linux / VPS / Mac
 
-```
+### For WSL / VPS (Ubuntu/Debian based)
+
+```bash
 sudo apt update && sudo apt upgrade -y
-```
-cskjdjdjdjd
+
+sudo apt install -y curl git wget nano tmux htop nvme-cli lz4 jq make gcc clang build-essential autoconf automake pkg-config libssl-dev libleveldb-dev libgbm1 bsdmainutils ncdu unzip tar
