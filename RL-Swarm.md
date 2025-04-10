@@ -1,3 +1,5 @@
+curl -fsSL https://get.docker.com | sh
+
 RL Swarm Node - Full Setup Guide (PC | VPS | Mac)
 
 tmux new-session -s rlswarm
