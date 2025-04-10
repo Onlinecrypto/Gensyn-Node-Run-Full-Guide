@@ -7,7 +7,7 @@
 
 ---
 
-## 1ï¸âƒ£ Dependencies for Windows, Linux (WSL/VPS) & Mac
+## 1 Dependencies for Windows, Linux (WSL/VPS) & Mac
 
 ### For WSL or VPS:
 
@@ -24,7 +24,7 @@ brew install git curl wget nano tmux htop jq make gcc autoconf automake pkg-conf
 
 ---
 
-## 2ï¸âƒ£ Install Python, Node.js, Yarn, NPM, Pip & Dev Tools
+## 2 Install Python, Node.js, Yarn, NPM, Pip & Dev Tools
 
 ### For WSL or VPS:
 
@@ -64,13 +64,13 @@ brew install python3 node yarn
 
 ---
 
-## 3ï¸âƒ£ Hugging Face Access Token (Optional)
+## 3 Hugging Face Access Token (Optional)
 
 Not needed.
 
 ---
 
-## 4ï¸âƒ£ Download RL Swarm Files
+## 4 Download RL Swarm Files
 
 ```bash
 git clone https://github.com/gensyn-ai/rl-swarm/
@@ -86,7 +86,7 @@ screen -S rlswarm
 
 ---
 
-## 5ï¸âƒ£ Install and Run RL Swarm
+## 5 Install and Run RL Swarm
 
 ```bash
 python3 -m venv .venv
@@ -109,7 +109,7 @@ Choose `N`
 
 ## VPS: Open Another Window to Login to Localhost
 
-### 1ï¸âƒ£ Allow Port 3000
+### 1 Allow Port 3000
 
 ```bash
 sudo apt install ufw -y
@@ -117,7 +117,7 @@ sudo ufw allow 3000/tcp
 sudo ufw enable
 ```
 
-### 2ï¸âƒ£ Install Cloudflared
+### 2 Install Cloudflared
 
 ```bash
 wget -q https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
@@ -125,7 +125,7 @@ sudo dpkg -i cloudflared-linux-amd64.deb
 cloudflared --version
 ```
 
-### 3ï¸âƒ£ Create Tunnel
+### 3 Create Tunnel
 
 Make sure your node is running at port `3000`, then:
 
@@ -197,7 +197,7 @@ echo %USERNAME%
 
 ---
 
-## ðŸ” For Daily Usage (Next Day Start)
+## For Daily Usage (Next Day Start)
 
 ```bash
 cd rl-swarm
