@@ -2,7 +2,7 @@
 Gensyn Node – Hardware & Software Requirements
 
 Official Setup Guide:
-GitHub Docs (RL Swarm)
+https://github.com/gensyn-ai/rl-swarm?tab=readme-ov-file
 
 
 ---
@@ -41,11 +41,11 @@ Software Requirements
 For Windows Users:
 
 1. Install WSL (Windows Subsystem for Linux):
-Guide: Install WSL
+Guide: https://learn.microsoft.com/en-us/windows/wsl/install#install-wsl-command
 
 
 2. Install Ubuntu via Microsoft Store:
-Link: Ubuntu on Microsoft Store
+Link: https://apps.microsoft.com/detail/9PDXGNCFSCZV?hl=en-us&gl=IN&ocid=pdpshare
 
 
 
@@ -60,12 +60,6 @@ Visit: https://brew.sh/
 
 2. Install Git via Terminal:
 
+```bash
 brew install git
-
-
-
-
----
-
-Let me know if you want a step-by-step visual guide, carousel, or video script version of this!
-
+```
