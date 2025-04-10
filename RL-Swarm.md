@@ -11,3 +11,4 @@ For WSL or VPS
 ```
 sudo apt update && sudo apt upgrade -y
 ```
+cskjdjdjdjd
